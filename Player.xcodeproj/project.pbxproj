@@ -13,6 +13,12 @@
 		CE6AAF712910C97F009F5DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6AAF6F2910C97F009F5DA5 /* Main.storyboard */; };
 		CE6AAF732910C980009F5DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6AAF722910C980009F5DA5 /* Assets.xcassets */; };
 		CE6AAF762910C980009F5DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6AAF742910C980009F5DA5 /* LaunchScreen.storyboard */; };
+		CE6AAF7E2910C98D009F5DA5 /* TimeframeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AAF7D2910C98D009F5DA5 /* TimeframeView.swift */; };
+		CE6AAF802910CD81009F5DA5 /* RecordRangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AAF7F2910CD81009F5DA5 /* RecordRangeModel.swift */; };
+		CE6AAF8929120D1D009F5DA5 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AAF8829120D1D009F5DA5 /* RowView.swift */; };
+		CE6AAF8B29120E95009F5DA5 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6AAF8A29120E95009F5DA5 /* CustomViewController.swift */; };
+		CEE9D32029121846004ECD8F /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D31F29121846004ECD8F /* DVRViewController.swift */; };
+		CEE9D3222912184D004ECD8F /* DVRMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D3212912184D004ECD8F /* DVRMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CE6AAF722910C980009F5DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6AAF752910C980009F5DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6AAF772910C980009F5DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6AAF7D2910C98D009F5DA5 /* TimeframeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeframeView.swift; sourceTree = "<group>"; };
+		CE6AAF7F2910CD81009F5DA5 /* RecordRangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRangeModel.swift; sourceTree = "<group>"; };
+		CE6AAF8829120D1D009F5DA5 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		CE6AAF8A29120E95009F5DA5 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		CEE9D31F29121846004ECD8F /* DVRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
+		CEE9D3212912184D004ECD8F /* DVRMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				CE6AAF722910C980009F5DA5 /* Assets.xcassets */,
 				CE6AAF742910C980009F5DA5 /* LaunchScreen.storyboard */,
 				CE6AAF772910C980009F5DA5 /* Info.plist */,
+				CE6AAF7D2910C98D009F5DA5 /* TimeframeView.swift */,
+				CE6AAF7F2910CD81009F5DA5 /* RecordRangeModel.swift */,
+				CE6AAF8829120D1D009F5DA5 /* RowView.swift */,
+				CE6AAF8A29120E95009F5DA5 /* CustomViewController.swift */,
+				CEE9D31F29121846004ECD8F /* DVRViewController.swift */,
+				CEE9D3212912184D004ECD8F /* DVRMode.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6AAF6E2910C97F009F5DA5 /* ViewController.swift in Sources */,
+				CE6AAF8B29120E95009F5DA5 /* CustomViewController.swift in Sources */,
+				CE6AAF8929120D1D009F5DA5 /* RowView.swift in Sources */,
 				CE6AAF6A2910C97F009F5DA5 /* AppDelegate.swift in Sources */,
+				CE6AAF802910CD81009F5DA5 /* RecordRangeModel.swift in Sources */,
+				CEE9D32029121846004ECD8F /* DVRViewController.swift in Sources */,
+				CEE9D3222912184D004ECD8F /* DVRMode.swift in Sources */,
 				CE6AAF6C2910C97F009F5DA5 /* SceneDelegate.swift in Sources */,
+				CE6AAF7E2910C98D009F5DA5 /* TimeframeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
